@@ -1,0 +1,22 @@
+.card {
+  background-color: beige;
+  color: brown;
+  width: 260px;
+  height: fit-content;
+  margin: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card > img {
+  width: inherit;
+  height: fit-content;
+}
+
+.card__info > h5 {
+  text-align: left;
+}
+
+.card__info {
+  padding: 5px 20px;
+  line-height: 5px;
+}
